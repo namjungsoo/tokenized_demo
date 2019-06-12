@@ -160,6 +160,7 @@ func main() {
 		if err != nil {
 			fmt.Println("protocol error", err)
 		}
+		fmt.Println(reflect.TypeOf(ret))
 		fmt.Println(ret)
 		break
 
